@@ -1,0 +1,15 @@
+<script id="greenhouse--template" type="text/html">
+<div id="department-{{id}}" class="department">
+  <h3 class="department--title">{{name}}</h3>
+  {{#jobs}}
+  <div id="job-{{id}}" class="job">
+    <span class="job--location">{{location}}</span>
+    <h4 class="job--title"><a href="{{absolute_url}}">{{title}}</a></h4>
+    <p class="job--content">
+      {{content}} 
+    </p>
+    <a href="{{absolute_url}}" class="job--link">Read more...</a>
+  </div>
+  {{/jobs}}
+</div>
+</script>

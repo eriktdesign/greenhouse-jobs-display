@@ -16,6 +16,10 @@ Then add an empty div with the class "greenhouse--jobs" to your HTML where you w
 
 Edit the JS file to set your Greenhouse board ID on line 26.
 
+```
+var boardID = 'XXX'; // your id goes here
+```
+
 On loading the page, all your jobs are pulled into the .jobs--container div. Presto!
 
 Edit the template.html file to change the markup that is used for jobs.
